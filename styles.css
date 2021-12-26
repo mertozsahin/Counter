@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(228, 228, 228);
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  margin-top: 15rem;
+  text-align: center;
+}
+h1 {
+  font-size: 5rem;
+  display: inline;
+}
+.value {
+  font-size: 6rem;
+  font-weight: bold;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  margin-left: 10px;
+  border: 3px #000 solid;
+  padding: 5px;
+  background-color: antiquewhite;
+  margin-top: 20px;
+}
+.decrease:hover {
+  background-color: red;
+}
+.reset:hover {
+  background-color: grey;
+}
+.increase:hover {
+  background-color: green;
+}
